@@ -1,0 +1,31 @@
+/lib
+  /models
+    - podcast.dart
+    - episode.dart
+    - user.dart
+    - media_type.dart      # Enum for audio/video
+  /screens
+    - home_screen.dart
+    - record_screen.dart
+    - livestream_screen.dart
+    - callin_screen.dart
+    - episode_detail_screen.dart
+    - settings_screen.dart
+  /widgets
+    - audio_recorder_widget.dart
+    - video_recorder_widget.dart
+    - audio_player_widget.dart
+    - video_player_widget.dart
+    - stream_controls.dart
+    - callin_controls.dart
+  /services
+    - audio_service.dart
+    - video_service.dart
+    - rtmp_service.dart
+    - webrtc_service.dart
+    - rss_service.dart
+    - storage_service.dart
+  /utils
+    - validators.dart
+    - formatters.dart
+  main.dart
